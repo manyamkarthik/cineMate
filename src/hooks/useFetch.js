@@ -15,14 +15,14 @@ export const useFetch = (apiPath,movie_name="") => {
           if(isMovieId){
           
           setData(jsonData)
-          console.log(jsonData)
+          
         }else{
 
           
-          console.log(jsonData.results);
+          
           setData(jsonData.results || []);}
         } catch (error) {
-          console.error('Error fetching data:', error);
+          
         }
       }fetchMoviesData();
     }
