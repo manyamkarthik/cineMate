@@ -34,9 +34,7 @@ Open the App:
 
 **Visit http://localhost:3000 in your browser.**
 
-📸 Screenshots
-Home Page
-![image](https://github.com/user-attachments/assets/bf0c7bab-5a61-45d4-be39-986bff918303)
+
 
 
 📁 Folder Structure
