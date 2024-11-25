@@ -1,79 +1,77 @@
-CineMate 🎥
-CineMate is a responsive web application that allows users to explore movies through categories like Popular, Top Rated, and Upcoming. Users can search for movies, view detailed information, and explore more about their favorite films with an intuitive and user-friendly interface.
+🎥 CineMate
+CineMate is a modern and responsive movie web app designed to showcase movies using The Movie Database (TMDb) API. It allows users to browse movies, view detailed information, and perform searches. Built with React, CineMate is lightweight and easy to use.
 
 🌟 Features
-🔍 Search Movies: Search for your favorite movies by title.
-📊 Explore Categories: Browse through Popular, Top Rated, and Upcoming movies.
-🎬 Movie Details: Click on a movie to view detailed information like its description and poster.
-🌗 Dark Mode Compatible: Seamless experience with dark mode support.
-🎨 Responsive Design: Fully optimized for mobile, tablet, and desktop devices.
+📜 Movie Browsing: View popular, top-rated, and upcoming movies.
+🔍 Search Functionality: Find movies by their title using the search bar.
+🌓 Dark/Light Mode: Toggle between light and dark themes for a personalized viewing experience.
+🔗 Detailed Pages: Get detailed information about each movie, including an overview and image.
+📱 Responsive Design: Fully responsive UI for mobile, tablet, and desktop users.
+
+🛠️ Technologies Used
+Frontend: React, Tailwind CSS
+API: The Movie Database (TMDb) API
+Routing: React Router
+State Management: React Hooks (useState, useEffect,useFetch(Custom Hook))
+Deployment: Netlify
+
+🚀 Installation
+Follow these steps to set up CineMate locally:
+
+**Clone the Repository:**
+git clone https://github.com/manyamkarthik/cineMate.git
+cd cineMate
+**Install Dependencies:**
+npm install
+**Create an Environment File:**
+Create a .env file in the root of the project.
+Add the following environment variable:
+REACT_APP_API_KEY=your_tmdb_api_key
+
+Start the Development Server:
+npm start
+Open the App:
+
+**Visit http://localhost:3000 in your browser.**
+
 📸 Screenshots
 Home Page
 ![image](https://github.com/user-attachments/assets/bf0c7bab-5a61-45d4-be39-986bff918303)
 
 
-Search Results
+📁 Folder Structure
 
-🛠️ Tech Stack
-Frontend
-React.js: Core library for building the user interface.
-Tailwind CSS: For styling and responsive design.
-React Router: For navigation between pages.
-Fetch API: To fetch movie data from The Movie Database (TMDb) API.
-🚀 Getting Started
-Prerequisites
-Make sure you have the following installed:
+cineMate/
+├── public/
+├── src/
+│   ├── assets/            # Images and static files
+│   ├── components/        # Reusable React components
+│   ├── hooks/             # Custom hooks (e.g., useFetch)
+│   ├── pages/             # Page components (e.g., MovieList)
+│   ├── styles/            # Tailwind CSS configuration
+│   ├── App.js             # Main application entry
+│   ├── index.js           # React DOM rendering
+│   └── .env               # Environment variables
+├── .gitignore             # Ignored files
+├── package.json           # Project dependencies
+└── README.md              # Project documentation
 
-Node.js (v14 or later)
-npm (v6 or later) or yarn (v1.22 or later)
-A valid API key from The Movie Database (TMDb).
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/manyamkarthik/cinemate.git
-cd cinemate
-Install dependencies:
-
-bash
-Copy code
-npm install
-# or
-yarn install
-Create a .env file in the project root:
-
-env
-Copy code
-REACT_APP_API_KEY=your_tmdb_api_key
-Start the development server:
-
-bash
-Copy code
-npm start
-# or
-yarn start
-The app will run at http://localhost:3000.
-
-📂 Project Structure
-bash
-Copy code
-src/
-├── assets/           # Images and assets
-├── components/       # Reusable UI components (e.g., Card, Header)
-├── hooks/            # Custom hooks (e.g., useFetch)
-├── pages/            # Application pages (e.g., Home, MovieList)
-├── App.js            # Main App component
-├── index.js          # Entry point of the application
 🌐 API Integration
-This app uses TMDb API to fetch movie data. Key endpoints include:
+CineMate leverages The Movie Database (TMDb) API for fetching movie data. Ensure you sign up at TMDb to get your API key.
 
 /movie/popular: Popular movies
 /movie/top_rated: Top-rated movies
 /movie/upcoming: Upcoming movies
 /search/movie: Search for movies
+
 👨‍💻 Contributors
 Karthik Manyam
+
+
+🙌 Acknowledgements
+Thanks to The Movie Database (TMDb) for providing the API.
+Inspired by the love for movies and clean web design.
+
 
 
 💡 Ideas for Improvement
