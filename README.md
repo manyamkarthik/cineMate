@@ -1,6 +1,9 @@
 🎥 CineMate
 CineMate is a modern and responsive movie web app designed to showcase movies using The Movie Database (TMDb) API. It allows users to browse movies, view detailed information, and perform searches. Built with React, CineMate is lightweight and easy to use.
 
+**NetLify Link**: 
+https://cinemate-manyam.netlify.app/
+
 🌟 Features
 
 📜 Movie Browsing: View popular, top-rated, and upcoming movies.
